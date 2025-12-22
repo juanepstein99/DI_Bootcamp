@@ -1,9 +1,11 @@
-secretnum = 58
-attempts = 7
-won = False
+secretnum = 58 # Secret number
+attempts = 7 # Number of tries
+won = False # Win flag 
 
 print ("Guess a number between 1 and 100")
 print ("You have 7 chances \n")
+
+# Loop through each attempt and give feedback/hints
 
 for i in range(attempts):
     guess = int(input(f"Attempt {i+1}: Enter your guess: "))
@@ -18,13 +20,15 @@ for i in range(attempts):
     else: 
         print ("It's lower")
 
-    if i == attempts - 2 and not won:
+    if i == attempts - 2 and not won: # Give a hint on the second-to-last attempt
         if secretnum % 2 == 0:
             print ("Here is a hint: The secret number ends with an even digit.")
         else: 
             print ("Here is a hint: The secret number ends with an odd digit.")
 
-if won: 
+# Final message depending on whether the user won or not
+
+if won:
     print ("You are a genius, you won!")
 else:
     print ("You ran out of attempts.")
