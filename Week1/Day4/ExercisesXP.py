@@ -184,12 +184,3 @@ while True:
         attendees.append(age)
 
 print(f"The final amount of attendees is {attendees}")
-
-
-
-
-
-    
-
-
-
