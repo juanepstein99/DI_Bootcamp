@@ -1,0 +1,10 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week1/Day4/DailyChallenge.py
+suggestions for improvement:
+- Consider adding comments to improve readability, especially explaining the logic behind key operations.
+- For challenge 2, consider handling edge cases, such as empty strings or strings with only one character, to ensure robustness.
+Brief justification:
+- correctness: The code accurately addresses both challenges. Challenge 1 correctly calculates and outputs a list of multiples based on user input, adhering to the specified length. Challenge 2 effectively removes consecutive duplicate letters from a user-provided string as outlined in the instructions.
+- readability: The code is generally readable, with clear variable names and straightforward logic. However, additional comments would further enhance understanding, especially for complex sections.
+- performance: The code demonstrates good performance for the given tasks. The use of a `for` loop in challenge 1 and string concatenation in challenge 2 are efficient for the expected input sizes.
+- security: The code appears secure, with no obvious vulnerabilities. The use of `int(input())` provides basic type checking for integer inputs. No external libraries are used, reducing potential security risks.
+
