@@ -1,0 +1,10 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week2/Day2/ExercisesXP.py
+suggestions for improvement:
+- No significant improvements needed. The code is well-structured and addresses all the exercises correctly.
+- Consider adding more comments to the temperature exercise, particularly explaining the month-based season logic.
+Brief justification:
+- correctness: The code correctly addresses all exercises, implementing functions as specified, using parameters and default values appropriately, modifying lists, and generating random numbers with conditional logic. Each exercise's goal is met according to the chapter content. The final bonus exercise involving the month and temperature generation is also implemented correctly.
+- readability: The code is generally readable with clear function definitions and comments. The use of f-strings enhances readability. Some areas, like the temperature exercise, could benefit from slightly more comments to clarify the logic, but overall it's well-structured.
+- performance: The code performs efficiently. The operations are straightforward and do not involve complex algorithms or large datasets.  The temperature exercise uses random.uniform() effectively.
+- security: The code doesn't involve any user input that could lead to security vulnerabilities (except for the last exercise that ask to the user to input a number between 1-12) and doesn't interact with external systems or files. Thus, security risks are minimal.
+
