@@ -1,0 +1,10 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week1/Day2/ExercisesXP.py
+suggestions for improvement:
+- The submitted code is unrelated to the chapter's content.
+- The exercises involve very basic concepts, and the submission tackles completely different exercises.
+Brief justification:
+- correctness: 0%. The provided code does not address any of the topics covered in the chapter (Sequences, Lists, Sets, Tuples, Loops, Conditionals, Input/Output, etc.). It consists of very simple, introductory Python exercises that are entirely unrelated to the exercises proposed in this chapter. The code focuses on basic printing, variable assignment, and simple conditional statements, which do not align with the chapter's focus on data structures and control flow.
+- readability: N/A
+- performance: N/A
+- security: N/A
+
