@@ -1,0 +1,9 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week1/Day6/ExercisesXP.py
+suggestions for improvement:
+- Consider adding comments to explain more complex logic, even though the code is generally well-structured and clear.
+Brief justification:
+- correctness: The code accurately addresses all four exercises. Exercise 1 correctly converts lists to a dictionary. Exercise 2 correctly calculates ticket prices and includes the bonus user input. Exercise 3 manipulates the Zara dictionary as requested, including bonus. Exercise 4 produces the three Disney character dictionaries as specified. All instructions and requirements are met.
+- readability: The code is well-organized and easy to follow. Clear variable names and consistent indentation enhance readability. Only minor improvements possible, such as more comments.
+- performance: The code uses efficient methods for dictionary creation and manipulation. Looping and conditional statements are implemented without unnecessary overhead.
+- security: No security concerns identified. The code does not handle external input in a way that could lead to vulnerabilities, and the dictionary operations are all safe.
+
