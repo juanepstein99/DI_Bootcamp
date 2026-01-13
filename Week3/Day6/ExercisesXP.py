@@ -123,5 +123,3 @@ data["company"]["employee"]["birth_date"] = "1999-4-26"
 # Step 4: Save the JSON to a file
 with open("employee.json", "w") as f:
     json.dump(data, f, indent=2)
-
-
