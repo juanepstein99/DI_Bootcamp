@@ -1,0 +1,17 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day4/ExercisesXP.py
+suggestions for improvement:
+- Exercise 2 is missing. The code should include the creation of `func.py` and the import statement in `exercise_one.py`.
+- In Exercise 1, the `__iadd__` method could be simplified by calling the `__add__` method.
+- Consider using more descriptive variable names in some exercises for enhanced readability.
+Correctness: 85%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day4/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day4/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

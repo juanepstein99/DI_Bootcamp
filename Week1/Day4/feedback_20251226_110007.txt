@@ -1,0 +1,9 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week1/Day4/DailyChallenge.py
+suggestions for improvement:
+- The provided code does not address the exercises outlined in the chapter content. It introduces new challenges related to multiples of a number and removing consecutive duplicate letters from a string, which are not mentioned or related to the content of lists, tuples, sets, loops or conditionals explained in the chapter content.
+Brief justification:
+- correctness: The code is unrelated to the chapter content, therefore the correctness score is 0%. The exercises cover sets, tuples, lists, loops and conditionals, while the provided code implements functionalities not related to these topics.
+- readability: The code is fairly readable with clear variable names and comments explaining the logic. However, it could be improved by adding more comments to explain the purpose of each section.
+- performance: The code has reasonable performance for the given tasks. The loops are efficient, and the algorithms used are appropriate for the problem size.
+- security: The code is reasonably secure, as it only takes integer and string inputs from the user. However, it could be made more secure by adding input validation to prevent errors.
+
