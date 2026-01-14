@@ -1,0 +1,11 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day6/DailyChallenge.py
+suggestions for improvement:
+- Consider using list comprehensions for more concise code in methods like `remove_stop_words`.
+- The `word_frequency` method could be simplified using the `count` method of lists directly.
+- For `remove_stop_words`, load stop words from a file or a more comprehensive list for better accuracy.
+Brief justification:
+- correctness: The code correctly implements all the required methods for the `Text` and `TextModification` classes as described in the chapter content. It includes methods for analyzing text (word frequency, most common word, unique words) and modifying text (removing punctuation, stop words, and special characters). It also correctly implements the `from_file` class method for reading text from a file.
+- readability: The code is well-structured and easy to understand, with clear comments explaining each step. Variable names are descriptive. However, some methods could be more concise using list comprehensions.
+- performance: The code's performance is generally good for the given tasks. However, using more efficient data structures or algorithms could further improve performance, especially for large text files.  Using the `count` method directly in `word_frequency` and list comprehensions instead of loops in other methods could improve performance.
+- security: The code appears to be secure, with no obvious vulnerabilities. Opening files with `encoding='utf-8'` is a good practice to handle different character encodings. Using regular expressions for removing special characters is also a safe approach.
+
