@@ -1,0 +1,11 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/Day2/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- Consider adding docstrings to the classes and methods to improve readability and documentation.
+- The code is well-structured and easy to follow, but could benefit from more comments explaining the purpose of each section, especially for beginners.
+Correctness: 100%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/Day2/DailyChallenge/DailyChallenge.txt
+suggestions for improvement:
+- The response addresses exercise 1 but doesn't include code to create a deck of cards as specified in exercise 2.
+Correctness: 0%
+-----
