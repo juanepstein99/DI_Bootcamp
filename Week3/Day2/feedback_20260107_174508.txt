@@ -1,0 +1,10 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day2/DailyChallenge.py
+suggestions for improvement:
+- The `go_to_page` method should only raise a ValueError, not print the current index after the error.
+- The `go_to_page(0)` call at the end will still cause the program to terminate due to the uncaught exception.  The provided testing code should either be removed, or wrapped in a try-except block to prevent termination.
+Brief justification:
+- correctness: The code correctly implements the `Pagination` class with the required methods: `__init__`, `get_visible_items`, `go_to_page`, `first_page`, `last_page`, `next_page`, `previous_page`, and `__str__`.  The methods generally behave as described in the instructions, including handling edge cases and raising ValueErrors where needed. All navigation methods properly return `self` to allow method chaining. However, the provided testing at the end of the script, in particular the call to `p.go_to_page(10)` which is expected to raise a ValueError, then printing the current index, and then calling `p.go_to_page(0)`, is problematic.
+- readability: The code is well-structured and easy to read, with clear comments explaining each step. Variable names are descriptive, and the code is properly indented.
+- performance: The code has good performance. The slicing operation in `get_visible_items` is efficient, and the navigation methods have constant time complexity.
+- security: The code does not appear to have any security vulnerabilities. It does not handle any external input other than the initial list of items and page size.
+

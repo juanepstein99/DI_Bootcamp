@@ -1,0 +1,9 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week3/Day6/ExercisesXP.py
+suggestions for improvement:
+- Consider adding more comprehensive error handling, such as handling potential file not found errors in `get_words_from_file` or more robust input validation in `main`.
+Brief justification:
+- correctness: The code accurately implements both exercises as described in the chapter content. Exercise 1 correctly generates random sentences of a specified length from a word list. Exercise 2 correctly parses a JSON string, accesses a nested key, adds a new key, and saves the modified JSON to a file. All steps are implemented as described.
+- readability: The code is well-structured and easy to understand. The functions are clearly defined and have meaningful names. The comments break down each step of the exercises, making it easy to follow the logic.
+- performance: The code has good performance for the given tasks. The functions are efficient and the code runs quickly. The performance could be improved slightly by pre-allocating the `sentence_words` list in `get_random_sentence` if performance is very critical, but it's not necessary here.
+- security: The code doesn't involve any external input or operations that could introduce security vulnerabilities. The file handling is done safely using `with open()`, which ensures that files are properly closed.
+
