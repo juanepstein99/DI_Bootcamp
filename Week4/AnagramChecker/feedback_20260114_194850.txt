@@ -1,0 +1,25 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/anagram_checker.py
+suggestions for improvement:
+- Consider using a set instead of a list for `self.words` in `__init__` to improve the `is_valid_word` method's performance (O(1) lookup instead of O(n)).
+- The `is_anagram` method could potentially be optimized further if very long words are expected, but the current implementation is clear and concise.
+- Consider adding error handling for the case where the word list file does not exist.
+Correctness: 100%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/anagrams.py
+suggestions for improvement:
+- Consider using a more descriptive name for the 'choice' variable.
+- The program assumes the existence of 'word_list.txt' in the current directory. Handle the case where the file is not found more gracefully (e.g., using try-except).
+Correctness: 100%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/word_list.txt
+suggestions for improvement:
+- This is a data file, not code, so it cannot be assessed for correctness, readability, performance, or security. It's simply a word list. Therefore, the correctness score must be 0% because its purpose is entirely irrelevant to the Chapter Content/Questions.
+- No code-specific feedback is possible.
+- This appears to be a text file containing a list of words, rather than code. It directly addresses the requirement to download a wordlist, but needs to be paired with python code.
+- It doesn't provide any functionality described in the Chapter Content/Questions, so it cannot be part of the solution for anagram checker.
+- This file should ideally be a .txt file.
+- This code represents a word list, which isn't directly executable.  It's intended to be used as data in a larger program.
+- Since the code isn't meant to be executed, readability, performance, and security aspects are not relevant in the typical sense.
+- Given that the goal is to create a program to find anagrams and this is a word list, it must be part of a complete program.
+Correctness: 0.0%
+-----
