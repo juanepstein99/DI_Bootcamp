@@ -1,0 +1,21 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/anagram_checker.py
+suggestions for improvement:
+- Consider using a set instead of a list for `self.words` in the `AnagramChecker` class. This would improve the performance of the `is_valid_word` method from O(n) to O(1).
+- The file loading in `__init__` could be more robust to handle potential file not found errors using a try-except block.
+- Consider using a more efficient anagram finding algorithm. Currently, it iterates through the entire word list for each word. Pre-calculating a dictionary of sorted word keys to lists of anagrams would improve performance.
+Correctness: 80%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/anagrams.py
+suggestions for improvement:
+- Consider adding try-except blocks for file handling to improve robustness.
+- The code could be made more modular by extracting input validation into a separate function.
+Correctness: 100%
+-----
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week4/AnagramChecker/word_list.txt
+suggestions for improvement:
+- This is a plain text file containing an English word list. It's neither code nor a direct answer to any specific question in the prompt, but rather a resource file used in the broader project. Therefore, its 'correctness' in relation to the specific parts of the task that require code is 0%.  It fulfills its purpose as a word list but doesn't execute any functions or logic on its own.
+- This part contains text, which does not require any improvements in terms of readability, performance, or security.
+- This code is just a text file containing a very long list of words.  It has nothing to do with the task of creating an AnagramChecker class or anagrams.py.
+- The file appears to be a dictionary of English words.  While this might be *used* by the solution, it doesn't *implement* any part of the instructions.
+Correctness: 0.0%
+-----
