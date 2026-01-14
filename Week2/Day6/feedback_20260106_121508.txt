@@ -1,0 +1,11 @@
+URL: https://github.com/juanepstein99/DI_Bootcamp/blob/main/Week2/Day6/DailyChallenge.py
+suggestions for improvement:
+- Consider implementing the `add_animal` method with `**kwargs` as suggested in Step 8 to enhance its flexibility.
+- Add documentation strings (docstrings) to each method to explain its purpose and usage. This greatly improves readability and maintainability.
+- Use `f-strings` for cleaner and more readable string formatting.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class with the `__init__`, `add_animal`, `get_info`, `get_animal_types`, and `get_short_info` methods as described in the instructions. The output matches the example, and all steps are correctly implemented, except for the bonus to upgrade the add_animal method. Therefore, the correctness is 90%.
+- readability: The code is well-structured and easy to follow. Variable names are descriptive, and the code is properly indented. Readability is 90%.
+- performance: The code is efficient and performs well for the given problem size. There are no obvious performance bottlenecks. Performance is 90%.
+- security: The code does not involve any external input or operations that could pose security risks. Security is 100%.
+
